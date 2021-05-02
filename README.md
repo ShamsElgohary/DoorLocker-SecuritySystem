@@ -5,12 +5,13 @@ second ECU called control ECU which is responsible for the system operations and
 • Implemented the following drivers Keypad, LCD, DC Motor, UART, Timer, I2C and External
 EEPROM.
 
-1- The system asks the user to enter a password and verify the password entered.
-2- The next phase the system asks the user if he wants to open the door or change the password.
-3- If the user chooses to change password then he is capable of changing the password and then is redirected to phase 2.
-4- If the user chooses to open the door, he has 3 chances to enter the password correctly.
--If the password is entered correctly within the 3 chances the door will open in 30 seconds and then stay opened for an extra 3 seconds and then close again in 30 seconds.
--Else the buzzer is activated and the whole system is locked for 60 seconds.
+
+1- The system asks the user to enter a password and verify the password entered.  
+2- The next phase the system asks the user if he wants to open the door or change the password.  
+3- If the user chooses to change password then he is capable of changing the password and then is redirected to phase 2.  
+4- If the user chooses to open the door, he has 3 chances to enter the password correctly.  
+-If the password is entered correctly within the 3 chances the door will open in 30 seconds and then stay opened for an extra 3 seconds and then close again in 30 seconds.  
+-Else the buzzer is activated and the whole system is locked for 60 seconds.  
 
 
 
